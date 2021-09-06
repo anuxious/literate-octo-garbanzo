@@ -982,11 +982,92 @@ input[type=checkbox] {
     </label></div> -->
   <br> 
       <div class="nextpage"> <a href="#section01"> nextpage </a>
-    </div> </form>
+      </div> </form> </div>
                     </section>
                     <section id="section01-section">
-                     <form>
-                       <input type="submit" value="Submit" style="font-family:'Poppins';">
+                                 <h1 style="font-family:'Poppins'; text-align:center; color:#F3F0D7; font-size:1.5rem;">
+                        <strong>Register Now</strong></h1>
+                                    
+                      <div class="container">
+  <form name="contact" method="POST" data-netlify="true">
+<!--     <label for="fname">First Name</label> -->
+    <input type="text" id="name" name="firstname" placeholder="Your name" style="font-family:'Poppins';" required>
+<br>
+<!--     <label for="lname">Last Name</label> -->
+<!--     <input type="text" id="lname" name="lastname" placeholder="Your last name" style="font-family:'Poppins';" required>
+<br> -->
+<!--     <label for="country" style="font-family:'Poppins'; font-s" >Country</label> -->
+
+    <select id="country" name="country" style="font-family:'Poppins';" required>
+      <option value="" disabled selected>Where are you from? </option>
+      <option value="australia">Australia</option>
+      <option value="india">India</option>
+      <option value="unitedkingdom">United Kingdom</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="japan">Japan</option>
+      <option value="asia">Asia</option> 
+      <option value="europe">Europe</option>
+      <option value="africa">Africa</option>
+      <option value="oceania">Oceania</option>  
+      <option value="northamerica">North America</option>
+      <option value="southamerica">South America</option>
+    </select>
+            <br>
+      <select id="age" name="age" style="font-family:'Poppins';" required>
+      <option value="" disabled selected>How old are you?</option>
+      <option value="13">13 or younger</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option> 
+      <option value="20">20 or older</option> 
+    </select> 
+      
+      <br>
+      
+      <select id="pronouns" name="pronouns" style="font-family:'Poppins';">
+      <option value="" disabled selected>What are your pronouns?</option>
+      <option value="sheher">she/her</option>
+      <option value="hehim">he/him</option>
+      <option value="theythem">they/them</option>
+      <option value="shethey">she/they</option>
+      <option value="hethey">he/they</option>
+      <option value="shehethey">she/he/they</option>
+      <option value="shehe">she/he</option> 
+      <option value="anypronouns">any pronouns</option>
+      <option value="notcomfortablesharing">not comfortable sharing</option>
+      <option value="custom">other / custom: please include in the text box</option>  
+    </select> 
+
+<!--     <label for="country">Email</label> -->
+      <br>
+    <input type="text" placeholder="yourdomain@example.com" name="mail" style="font-family:'Poppins';" required>
+    <br>
+<!--     <label for="subject">Subject</label> -->
+    <textarea id="subject" name="subject" placeholder="Tell us something about yourself.." style="height:200px; font-family:'Poppins';" required></textarea>
+
+<!-- <div style="text-align:left; justify-content:left; align-items:left;">
+<label style="font-family:'Poppins'; color:white; text-align:left; justify-content:left; align-items:left; font-size:0.7rem">
+      <input type="checkbox" checked="checked" name="subscribe"> Anime 
+      <input type="checkbox" checked="checked" name="subscribe"> Films 
+      <input type="checkbox" checked="checked" name="subscribe"> Music 
+      <input type="checkbox" checked="checked" name="subscribe"> Dance 
+            <br>
+      <input type="checkbox" checked="checked" name="subscribe"> Anime 
+      <input type="checkbox" checked="checked" name="subscribe"> Anime 
+      <input type="checkbox" checked="checked" name="subscribe"> Anime 
+      <input type="checkbox" checked="checked" name="subscribe"> Anime 
+      
+    </label></div> -->
+  <br>
+      <div class="nextpage"> <a href="#other"> nextpage </a>
+    </div>
+    <section id="other-section" class="inactive">
+    
+    <input type="submit" value="Submit" style="font-family:'Poppins';">
   </form>
                         <p id="text01">Text</p>
                     </section>
